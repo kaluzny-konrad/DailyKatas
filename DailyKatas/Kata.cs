@@ -192,5 +192,60 @@ namespace DailyKatas
 
             return $"{hoursString}:{minutesString}";
         }
+
+        public static string Rot13(string message)
+        {
+            string rotMessage = "";
+
+            foreach (var character in message)
+            {
+                int c = character;
+                if (c >= 97 && c <= 122)
+                {
+                    c += 13;
+                    if (!(c >= 97 && c <= 122))
+                    {
+                        c -= 26;
+                    }
+                }
+                else if (c >= 65 && c <= 90)
+                {
+                    c += 13;
+                    if (!(c >= 65 && c <= 90))
+                    {
+                        c -= 26;
+                    }
+                }
+                rotMessage += (char)c;
+            }
+
+            return rotMessage;
+        }
+
+        public static string Rot13v2(string message)
+        {
+            string rotMessage = "";
+            foreach (var character in message)
+            {
+                int c = character;
+                if (IsLowerCase(c))
+                {
+                    c = GetRotedCase(c);
+                    c = IsLowerCase(c) ? c : GetRestoredCaps(c);
+                }
+                if (IsUpperCase(c))
+                {
+                    c = GetRotedCase(c);
+                    c = IsUpperCase(c) ? c : GetRestoredCaps(c);
+                }
+                rotMessage += (char)c;
+            }
+            return rotMessage;
+        }
+
+        private static bool IsLowerCase(int c) => (c >= 97 && c <= 122);
+        private static bool IsUpperCase(int c) => (c >= 65 && c <= 90);
+        private static int GetRotedCase(int c) => c + 13;
+        private static int GetRestoredCaps(int c) => c - 26;
     }
 }
