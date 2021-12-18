@@ -147,5 +147,50 @@ namespace DailyKatas
             if (word.Length < 5) { return word; }
             return string.Join("", word.Reverse());
         }
+
+        public static string WhatIsTheTime(string timeInMirror)
+        {
+            int hoursInMirror = int.Parse(timeInMirror.Split(':')[0]);
+            int minutesInMirror = int.Parse(timeInMirror.Split(':')[1]);
+
+            int minutes = minutesInMirror > 0 ? 60 - minutesInMirror : 0;
+
+            int hours;
+            int maxHours = 12;
+            if (minutesInMirror > 0)
+            {
+                if (hoursInMirror == maxHours)
+                {
+                    hours = (maxHours - 1);
+                }
+                else if (hoursInMirror == (maxHours - 1))
+                {
+                    hours = maxHours;
+                }
+                else
+                {
+                    hours = (maxHours - 1) - hoursInMirror;
+                }
+            }
+            else
+            {
+                if (hoursInMirror == maxHours)
+                {
+                    hours = maxHours;
+                }
+                else
+                {
+                    hours = maxHours - hoursInMirror;
+                }
+            }
+
+            string hoursString = hours.ToString();
+            hoursString = hours < 10 ? $"0{hoursString}" : hoursString;
+
+            string minutesString = minutes.ToString();
+            minutesString = minutes < 10 ? $"0{minutesString}" : minutesString;
+
+            return $"{hoursString}:{minutesString}";
+        }
     }
 }
