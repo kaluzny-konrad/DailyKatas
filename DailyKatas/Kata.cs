@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Text.RegularExpressions;
 
 namespace DailyKatas
@@ -247,5 +248,103 @@ namespace DailyKatas
         private static bool IsUpperCase(int c) => (c >= 65 && c <= 90);
         private static int GetRotedCase(int c) => c + 13;
         private static int GetRestoredCaps(int c) => c - 26;
+
+        public static int DigPow(int n, int p)
+        {
+            var sum = 0;
+            foreach (var d in n.ToString())
+            {
+                int digit = int.Parse(d.ToString());
+                sum += (int)Math.Pow(digit, p);
+                p++;
+            }
+
+            return sum % n == 0 ? sum / n : -1;
+        }
+
+        public static int DigPow2(int n, int p)
+        {
+            var sum = 0;
+            foreach (var d in n.ToString())
+            {
+                int digit = int.Parse(d.ToString());
+                int pow = (int)Math.Pow(digit, p);
+                sum += pow;
+                p++;
+            }
+
+            if (sum % n == 0)
+            {
+                return sum / n;
+            }
+            else
+            {
+                return -1;
+            }
+        }
+
+        public static string[] TowerBuilder(int nFloors)
+        {
+            var result = new string[nFloors];
+            for (var nFloor = 0; nFloor < nFloors; nFloor++)
+            {
+                result[nFloor] = (GetFloorRow(nFloors, nFloor));
+            }
+            return result;
+        }
+
+        private static string GetFloorRow(int nFloors, int nFloor)
+        {
+            var signsInRow = (nFloor * 2) + 1;
+            var halfOfSpacesInRow = nFloors - nFloor - 1;
+            var row = new string(' ', halfOfSpacesInRow);
+            row += new string('*', signsInRow);
+            row += new string(' ', halfOfSpacesInRow);
+            return row;
+        }
+
+        public static string[] TowerBuilder2(int nFloors)
+        {
+            var result = new List<string>();
+            for (var nFloor = 0; nFloor < nFloors; nFloor++)
+            {
+                result.Add(GetFloorRow(nFloors, nFloor));
+            }
+            return result.ToArray();
+        }
+
+        public static string UInt32ToIP(uint ip)
+        {
+            var ipString = ip.ToString();
+            var ipParsed = System.Net.IPAddress.Parse(ipString);
+            return ipParsed.ToString();
+        }
+
+        public static string UInt32ToIP2(uint ip)
+        {
+            string[] octets = new string[4];
+            for (uint i = 0; i < 4; i++)
+            {
+                uint pow = (uint)Math.Pow(256, 3 - i);
+                octets[i] = (ip / pow).ToString();
+                ip %= pow;
+            }
+            return string.Join(".", octets);
+        }
+
+        public static uint IPToUInt32(string ip)
+        {
+            var splitedIp = ip.Split(".");
+            int numOfOctets = 4;
+            uint sum = 0;
+            for (uint i = 0; i < numOfOctets; i++)
+            {
+                uint octet = uint.Parse(splitedIp[i]);
+                uint pow = (uint)Math.Pow(256, numOfOctets - i - 1);
+                sum += octet * pow;
+            }
+
+            return sum;
+        }
     }
 }
