@@ -1,0 +1,17 @@
+C:\Users\konra\source\repos\DailyKatas\DailyKatas\bin\Debug\net6.0\DailyKatas.exe
+C:\Users\konra\source\repos\DailyKatas\DailyKatas\bin\Debug\net6.0\DailyKatas.deps.json
+C:\Users\konra\source\repos\DailyKatas\DailyKatas\bin\Debug\net6.0\DailyKatas.runtimeconfig.json
+C:\Users\konra\source\repos\DailyKatas\DailyKatas\bin\Debug\net6.0\DailyKatas.dll
+C:\Users\konra\source\repos\DailyKatas\DailyKatas\bin\Debug\net6.0\ref\DailyKatas.dll
+C:\Users\konra\source\repos\DailyKatas\DailyKatas\bin\Debug\net6.0\DailyKatas.pdb
+C:\Users\konra\source\repos\DailyKatas\DailyKatas\bin\Debug\net6.0\nunit.framework.dll
+C:\Users\konra\source\repos\DailyKatas\DailyKatas\obj\Debug\net6.0\DailyKatas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\konra\source\repos\DailyKatas\DailyKatas\obj\Debug\net6.0\DailyKatas.AssemblyInfoInputs.cache
+C:\Users\konra\source\repos\DailyKatas\DailyKatas\obj\Debug\net6.0\DailyKatas.AssemblyInfo.cs
+C:\Users\konra\source\repos\DailyKatas\DailyKatas\obj\Debug\net6.0\DailyKatas.csproj.CoreCompileInputs.cache
+C:\Users\konra\source\repos\DailyKatas\DailyKatas\obj\Debug\net6.0\DailyKatas.csproj.CopyComplete
+C:\Users\konra\source\repos\DailyKatas\DailyKatas\obj\Debug\net6.0\DailyKatas.dll
+C:\Users\konra\source\repos\DailyKatas\DailyKatas\obj\Debug\net6.0\ref\DailyKatas.dll
+C:\Users\konra\source\repos\DailyKatas\DailyKatas\obj\Debug\net6.0\DailyKatas.pdb
+C:\Users\konra\source\repos\DailyKatas\DailyKatas\obj\Debug\net6.0\DailyKatas.genruntimeconfig.cache
+C:\Users\konra\source\repos\DailyKatas\DailyKatas\obj\Debug\net6.0\DailyKatas.csproj.AssemblyReference.cache
