@@ -220,23 +220,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\konra\\.nuget\\packages\\": {},
+    "C:\\Users\\konrad.kaluzny\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\konra\\source\\repos\\DailyKatas\\DailyKatas\\DailyKatas.csproj",
+      "projectUniqueName": "C:\\Users\\konrad.kaluzny\\DailyKatas\\DailyKatas\\DailyKatas.csproj",
       "projectName": "DailyKatas",
-      "projectPath": "C:\\Users\\konra\\source\\repos\\DailyKatas\\DailyKatas\\DailyKatas.csproj",
-      "packagesPath": "C:\\Users\\konra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\konra\\source\\repos\\DailyKatas\\DailyKatas\\obj\\",
+      "projectPath": "C:\\Users\\konrad.kaluzny\\DailyKatas\\DailyKatas\\DailyKatas.csproj",
+      "packagesPath": "C:\\Users\\konrad.kaluzny\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\konrad.kaluzny\\DailyKatas\\DailyKatas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\konra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\konrad.kaluzny\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

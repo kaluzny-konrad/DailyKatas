@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "RT+kyOCZXcsG3iIS1+sq1B5UQ5LV0elCz1AlXJgcunI8wbueIChuLde52iGhFMBwtkQZdZqYWjaVwOUbh0V0uQ==",
+  "dgSpecHash": "ElfnVPTYU5z+DbtLImthoTbyavDN+yLlyW8KU/+roK1s0sObeCKde+Q1jcBnKFNU3Id+e+FDw4YVU1BEWA0Y+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\konra\\source\\repos\\DailyKatas\\DailyKatas\\DailyKatas.csproj",
+  "projectFilePath": "C:\\Users\\konrad.kaluzny\\DailyKatas\\DailyKatas\\DailyKatas.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\konra\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\konra\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\konra\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512"
+    "C:\\Users\\konrad.kaluzny\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\konrad.kaluzny\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\konrad.kaluzny\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512"
   ],
   "logs": []
 }

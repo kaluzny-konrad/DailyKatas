@@ -1,0 +1,14 @@
+{
+  "author": {
+    "name": ""
+  },
+  "description": "DailyKatasJavaScript",
+  "main": "app.js",
+  "name": "daily-katas-java-script",
+  "type": "module",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "mocha",
+    "int-test": "mocha --require babel-core/register --recursive test"
+  }
+}
