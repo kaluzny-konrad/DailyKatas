@@ -3,3 +3,7 @@ DailyKatasJavaScript
 *.tmp
 *.cache
 DailyKatasTests/obj/Debug/net6.0/DailyKatasTests.csproj.FileListAbsolute.txt
+.vs/DailyKatas/DesignTimeBuild/.dtbcache.v2
+.vs/DailyKatas/v17/TestStore
+.vs/DailyKatas/v17
+.vs/DailyKatas/project-colors.json
