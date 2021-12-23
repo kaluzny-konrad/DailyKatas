@@ -1,2 +1,0 @@
-C:\Users\konrad.kaluzny\DailyKatas\DailyKatasJavaScript\obj\Debug\DailyKatasJavaScript.njsproj.CoreCompileInputs.cache
-C:\Users\konrad.kaluzny\DailyKatas\DailyKatasJavaScript\bin\Microsoft.NodejsTools.WebRole.dll

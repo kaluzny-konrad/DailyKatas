@@ -22,6 +22,7 @@ C:\Users\konrad.kaluzny\DailyKatas\DailyKatas\bin\Debug\net6.0\DailyKatas.dll
 C:\Users\konrad.kaluzny\DailyKatas\DailyKatas\bin\Debug\net6.0\ref\DailyKatas.dll
 C:\Users\konrad.kaluzny\DailyKatas\DailyKatas\bin\Debug\net6.0\DailyKatas.pdb
 C:\Users\konrad.kaluzny\DailyKatas\DailyKatas\bin\Debug\net6.0\nunit.framework.dll
+C:\Users\konrad.kaluzny\DailyKatas\DailyKatas\obj\Debug\net6.0\DailyKatas.csproj.AssemblyReference.cache
 C:\Users\konrad.kaluzny\DailyKatas\DailyKatas\obj\Debug\net6.0\DailyKatas.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\konrad.kaluzny\DailyKatas\DailyKatas\obj\Debug\net6.0\DailyKatas.AssemblyInfoInputs.cache
 C:\Users\konrad.kaluzny\DailyKatas\DailyKatas\obj\Debug\net6.0\DailyKatas.AssemblyInfo.cs

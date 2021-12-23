@@ -1,1 +1,5 @@
 ﻿.vs/DailyKatas/v17/TestStore/0/013.testlog
+DailyKatasJavaScript
+*.tmp
+*.cache
+DailyKatasTests/obj/Debug/net6.0/DailyKatasTests.csproj.FileListAbsolute.txt
