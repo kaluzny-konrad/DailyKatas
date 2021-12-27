@@ -1,3 +1,6 @@
+import numpy as np
+from statistics import median
+
 def duplicate_count(text):
     duplicates = 0
     text = text.lower()
@@ -15,13 +18,13 @@ def even_or_odd(number):
     else:
         return "Odd"
 
-def median(array):
+def median3(array):
+    return np.median(array)
+
+def median2(array):
     array.sort()
-    array_len = len(array)
-    if array_len % 2:
-        index = int(array_len / 2)
-        return array[index]
+    index = int(len(array) / 2)
+    if len(array) % 2 == 0:
+        return (array[index] + array[index - 1]) / 2.0
     else:
-        index = int(array_len / 2)
-        index2 = int(array_len / 2) - 1
-        return (array[index] + array[index2] / 2.0)
+        return array[index]
