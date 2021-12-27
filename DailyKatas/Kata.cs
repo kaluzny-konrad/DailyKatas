@@ -346,5 +346,26 @@ namespace DailyKatas
 
             return sum;
         }
+
+        public static string Abbreviate(string input)
+        {
+            var result = "";
+
+            foreach (var word in input.Split(" "))
+            {
+                if (word.Length > 3)
+                {
+                    result += word.First();
+                    result += (word.Length - 2);
+                    result += word.Last();
+                }
+                else
+                {
+                    result += word;
+                }
+            }
+
+            return result;
+        }
     }
 }
