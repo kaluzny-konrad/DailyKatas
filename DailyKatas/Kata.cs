@@ -346,5 +346,46 @@ namespace DailyKatas
 
             return sum;
         }
+
+        public static string SumStrings(string a, string b)
+        {
+            ulong result = GetNum(a) + GetNum(b);
+            return result.ToString();
+        }
+
+        private static ulong GetNum(string number)
+        {
+            try
+            {
+                return ulong.Parse(number);
+            }
+            catch (System.FormatException)
+            {
+                return 0;
+            }
+            catch (System.OverflowException)
+            {
+                return 0;
+            }
+        }
+
+        public static long NextSmaller(long n)
+        {
+            for (var i = n - 1; i >= 0; i--)
+            {
+                if (GetSortedString(i) == GetSortedString(n))
+                {
+                    return i;
+                }
+            }
+            return -1;
+        }
+
+        private static string GetSortedString(long i)
+        {
+            char[] iCharacters = i.ToString().ToArray();
+            Array.Sort(iCharacters);
+            return new string(iCharacters);
+        }
     }
 }

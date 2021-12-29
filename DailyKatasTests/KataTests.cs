@@ -151,5 +151,47 @@ namespace DailyKatasTests
             }
         }
 
+        [TestFixture]
+        public class SumStringsTests
+        {
+            [Test]
+            public void Given123And456Returns579()
+            {
+                Assert.AreEqual("579", Kata.SumStrings("123", "456"));
+            }
+
+            [Test]
+            public void GivenEmptyAnd456Returns456()
+            {
+                Assert.AreEqual("456", Kata.SumStrings("", "456"));
+            }
+
+            [Test]
+            public void Given111AndEmptyReturns111()
+            {
+                Assert.AreEqual("111", Kata.SumStrings("111", ""));
+            }
+
+            [Test]
+            public void GivenEmptyAndEmptyReturns0()
+            {
+                Assert.AreEqual("0", Kata.SumStrings("", ""));
+            }
+        }
+
+        [TestFixture]
+        public class NextSmallerWithSameDigitsTests
+        {
+            [TestCase(21, ExpectedResult = 12)]
+            [TestCase(907, ExpectedResult = 790)]
+            [TestCase(531, ExpectedResult = 513)]
+            [TestCase(1027, ExpectedResult = -1)]
+            [TestCase(441, ExpectedResult = 414)]
+            [TestCase(123456798, ExpectedResult = 123456789)]
+            public long FixedTests(long n)
+            {
+                return Kata.NextSmaller(n);
+            }
+        }
     }
 }
