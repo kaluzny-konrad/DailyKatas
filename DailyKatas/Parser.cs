@@ -2,32 +2,44 @@
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-namespace DailyKatas
+namespace Parser
 {
     public class Parser
     {
         public static int ParseInt(string s)
         {
-            char[] separators = { ' ', '-' };
-            var result = 0;
-            foreach (var number in s.Split(separators))
+            string[] spaceParts = s.Split(' ');
+            var allPartsSum = 0;
+            for (int i = 0; i < spaceParts.Length; i++)
             {
-                result += GetParsedNumber(number);
-                if (number == "hundred")
+                string[] lineParts = spaceParts[i].Split('-');
+                var partSum = 0;
+                foreach (var linePart in lineParts)
                 {
-                    result *= 100;
+                    partSum += GetParsedNumber(linePart);
                 }
-                else if (number == "thousand")
-                {
-                    result *= 1000;
-                }
-                else if (number == "milion")
-                {
-                    result *= 1000000;
-                }
-            }
 
-            return result;
+                var multiply = 1;
+                if (i + 1 < spaceParts.Length)
+                {
+                    multiply = GetMultiply(spaceParts[i + 1]);
+                }
+
+                partSum *= multiply;
+                allPartsSum += partSum;
+            }
+            return allPartsSum;
+        }
+
+        private static int GetMultiply(string part)
+        {
+            return part switch
+            {
+                "hundred" => 100,
+                "thousand" => 1000,
+                "milion" => 1000000,
+                _ => 1,
+            };
         }
 
         private static int GetParsedNumber(string num)
