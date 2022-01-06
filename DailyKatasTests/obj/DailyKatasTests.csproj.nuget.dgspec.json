@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\konrad.kaluzny\\DailyKatas\\DailyKatasTests\\DailyKatasTests.csproj": {}
+    "C:\\Users\\konra\\source\\repos\\DailyKatas\\DailyKatasTests\\DailyKatasTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\konrad.kaluzny\\DailyKatas\\DailyKatasTests\\DailyKatasTests.csproj": {
+    "C:\\Users\\konra\\source\\repos\\DailyKatas\\DailyKatasTests\\DailyKatasTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\konrad.kaluzny\\DailyKatas\\DailyKatasTests\\DailyKatasTests.csproj",
+        "projectUniqueName": "C:\\Users\\konra\\source\\repos\\DailyKatas\\DailyKatasTests\\DailyKatasTests.csproj",
         "projectName": "DailyKatasTests",
-        "projectPath": "C:\\Users\\konrad.kaluzny\\DailyKatas\\DailyKatasTests\\DailyKatasTests.csproj",
-        "packagesPath": "C:\\Users\\konrad.kaluzny\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\konrad.kaluzny\\DailyKatas\\DailyKatasTests\\obj\\",
+        "projectPath": "C:\\Users\\konra\\source\\repos\\DailyKatas\\DailyKatasTests\\DailyKatasTests.csproj",
+        "packagesPath": "C:\\Users\\konra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\konra\\source\\repos\\DailyKatas\\DailyKatasTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\konrad.kaluzny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\konra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\konrad.kaluzny\\DailyKatas\\DailyKatas\\DailyKatas.csproj": {
-                "projectPath": "C:\\Users\\konrad.kaluzny\\DailyKatas\\DailyKatas\\DailyKatas.csproj"
+              "C:\\Users\\konra\\source\\repos\\DailyKatas\\DailyKatas\\DailyKatas.csproj": {
+                "projectPath": "C:\\Users\\konra\\source\\repos\\DailyKatas\\DailyKatas\\DailyKatas.csproj"
               }
             }
           }
@@ -84,20 +84,20 @@
         }
       }
     },
-    "C:\\Users\\konrad.kaluzny\\DailyKatas\\DailyKatas\\DailyKatas.csproj": {
+    "C:\\Users\\konra\\source\\repos\\DailyKatas\\DailyKatas\\DailyKatas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\konrad.kaluzny\\DailyKatas\\DailyKatas\\DailyKatas.csproj",
+        "projectUniqueName": "C:\\Users\\konra\\source\\repos\\DailyKatas\\DailyKatas\\DailyKatas.csproj",
         "projectName": "DailyKatas",
-        "projectPath": "C:\\Users\\konrad.kaluzny\\DailyKatas\\DailyKatas\\DailyKatas.csproj",
-        "packagesPath": "C:\\Users\\konrad.kaluzny\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\konrad.kaluzny\\DailyKatas\\DailyKatas\\obj\\",
+        "projectPath": "C:\\Users\\konra\\source\\repos\\DailyKatas\\DailyKatas\\DailyKatas.csproj",
+        "packagesPath": "C:\\Users\\konra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\konra\\source\\repos\\DailyKatas\\DailyKatas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\konrad.kaluzny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\konra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
